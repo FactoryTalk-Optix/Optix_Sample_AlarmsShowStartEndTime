@@ -1,0 +1,88 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: MyCoolAlarm
+  Id: g=cbb4d0e5c6a492e51818ad20b6c27de5
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=4d3680e2a625012e1bb91da027a6b491
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=67ba8fd2874cc0e2134596f6e20ff4e7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=5d4ef8617d03bd6b67cbd96b63537d8b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: EZ
+    Id: g=b39892ac9f01ba02a3dc32f8f9163c72
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=9eafe8b1dc16864f65dc1763342cde6f
+  - Name: AutoAcknowledge
+    Id: g=14d76f56ae4568899698854c41616017
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: AutoConfirm
+    Id: g=0e49ddd735f93fbc662fcdfef0458e31
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: StartTime
+    Id: g=4c895e1488bf4248a8817fd05d0466aa
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: EndTime
+    Id: g=ab2746ec41df707e80b5d9f2873088ab
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
+  - Name: AlarmDuration
+    Id: g=4fd6b1de39a93005cd3cc5d9f6fb1c73
+    Type: BaseDataVariableType
+    DataType: Duration
+- File: Folder1/Folder1.yaml

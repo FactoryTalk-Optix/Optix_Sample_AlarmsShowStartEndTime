@@ -1,0 +1,259 @@
+Name: Folder1
+Id: g=014069c3877a38159d85a13fd0de136d
+Type: FolderType
+Children:
+- Name: DA1
+  Id: g=5b6eb1b18082f6708263f0b1162e10f0
+  Type: MyCoolAlarm
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=7e82ef0ab6eb635fcc48052549df8f7b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9a16fc47febdb8309525db4d0ed9069d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=50deac94f598237e9e226be208ba7cb4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Variable2"
+      Children:
+      - Name: Mode
+        Id: g=92e68ae362bcb530feb8f75b4ee3f8ba
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=e96b4cd5e5e858d220f533e1b40b53ea
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: EZ
+    Id: g=b9ac9f0940f56e680b358f054eea87ad
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ez1"
+  - Name: Message
+    Id: g=33019596a81dfa5a5b7d7326d9270b85
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":22,"TextId":"_al1"}
+  - Name: StartTime
+    Id: g=8a494fc6bdbb1e6bda5905abaf48b8b0
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: EndTime
+    Id: g=f85e883ca5c2fc699cec4cdda49e74ac
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
+  - Name: AlarmDuration
+    Id: g=09e848750137f745edab8b1ba461283c
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DA2
+  Id: g=a99e4e0b5e246502cda5a2a890fcd3a8
+  Type: MyCoolAlarm
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=d4d390f4a4cf99b74140c26ff0342b74
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=a2dbac22a6f9118a48117eb7e69f9f48
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b7188db003124ca3532837a4d23b9ce4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Variable3"
+      Children:
+      - Name: Mode
+        Id: g=2dc67b2c262e3adf561e06b9ffbd8a46
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=1c0b7a2966e19e20151b93b94ec8edb1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: EZ
+    Id: g=c961e16c0b6ea72f19d432ac1c1f0cef
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ez2"
+  - Name: Message
+    Id: g=c1eebbf0c8f8f7d63c73c51d493c47a7
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":22,"TextId":"_al2"}
+  - Name: StartTime
+    Id: g=34d52e32c760007e5a0db29454373a99
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: EndTime
+    Id: g=de957db980be3bc61aba6dac4b59b092
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
+  - Name: AlarmDuration
+    Id: g=70020bb246cb5cd9ee1d60c0e65d411f
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DA3
+  Id: g=1143d562a192d06cb9fb0456dd6b09bb
+  Type: MyCoolAlarm
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=ca58efb6b84be739ff89fe56d7784d8b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=3c0b993838ae8a9f98898afd03e88b2e
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=62efd036795269143e83496766dc1876
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../Model/Variable4"
+      Children:
+      - Name: Mode
+        Id: g=def83931c5769d5d47dd1bfe474ab50e
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=6b23af04e9ed2e44db3a1c793c0f38d0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: EZ
+    Id: g=187e9cfef5eaf51d1b506f96308131da
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ez3"
+  - Name: Message
+    Id: g=3a7e7867b5db00090bb10f2e54c115e2
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":22,"TextId":"_al3"}
+  - Name: StartTime
+    Id: g=986c45c2d49b017a07c985854320dbd2
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Name: EndTime
+    Id: g=2f9cfc2388ac8f654a3bba0cee87ef83
+    Type: BaseDataVariableType
+    DataType: DateTime
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
+  - Name: AlarmDuration
+    Id: g=3eaeb57712e0a6a931e53144cd690be4
+    Type: BaseDataVariableType
+    DataType: Duration

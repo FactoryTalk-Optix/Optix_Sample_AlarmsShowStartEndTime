@@ -1,0 +1,31 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [16,3],
+    "Body": [
+     "","en-US","it-IT",
+     "_al1","alarm 1 on","allarme 1 attivo",
+     "_al2","alarm 2 on","allarme 2 attivo",
+     "_al3","alarm 3 on","allarme 3 attivo",
+     "Timestamp","Timestamp","Timestamp",
+     "Name","Name","Nome",
+     "Message","Message","Messaggio",
+     "Active","Active","Attivo",
+     "SourceName","Source Variable","Variabile sorgente",
+     "Acked","Acked","Riconosciuto",
+     "Severity","Severity","Gravità",
+     "Confirmed","Confirmed","Confermato",
+     "Acknowledge","Acknowledge","Riconosci",
+     "Acknowledge All","Acknowledge All","Riconosci tutti",
+     "Confirm","Confirm","Conferma",
+     "Confirm All","Confirm All","Conferma tutti"
+    ]
+   }
